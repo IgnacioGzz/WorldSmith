@@ -1,4 +1,50 @@
-#miparrafo {color: red; font-family: verdana;}
-li > a {color: aquamarine !important;}
-.boton {background-color: blueviolet;}
-li > a {color: yellow; }
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #003399;
+    padding: 1rem;
+}
+
+nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+h1 {
+    color: #003399;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+footer {
+    background-color: #003399;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
