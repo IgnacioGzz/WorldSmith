@@ -21,3 +21,9 @@ const login = () => {
 const btnlogin = document.getElementById('btnlogin');
 
 btnlogin.addEventListener('click', login);
+
+password.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        login();
+    }
+});
