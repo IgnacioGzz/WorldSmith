@@ -1,0 +1,16 @@
+{
+  "routes": [
+	{
+	  "path": "/",
+	  "handler": "raiz"
+	},
+	{
+	  "path": "/marco",
+	  "handler": "marco"
+	},
+	{
+	  "path": "/ping",
+	  "handler": "ping"
+	}
+  ]
+}
